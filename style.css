@@ -140,3 +140,69 @@ input::placeholder{
 .forgot{
     margin-top: 25px;
 }
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .hero{
+        width: 70%;
+    }
+    .hero-key{
+        float: right;
+        position: absolute;
+        top: 272px;
+    }
+    .hero{
+        padding: 6% 6% 3% 12%;
+    }
+    .mainHeading{
+        font-size: 46px;    
+    }
+    .mainHeadingpart{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .hero-key{
+        float: right;
+        position: absolute;
+        top: 272px;
+    }
+    .hero{
+        padding: 6% 6% 3% 12%;
+    }
+    .mainHeading{
+        font-size: 46px;    
+    }
+    .mainHeadingpart{
+        font-size: 25px;
+    }
+    input{
+        width: 70%
+    };
+}
+
+@media screen and (max-width:767px){
+    .social_login, .account{
+        padding: 5% 0% 7% 8%;
+    }
+    .h2{
+        font-size: 22px;
+    }
+    .hero{
+        padding: 6% 6% 3% 37%;
+    }
+    .desktopScreen{
+        display: none;
+    }
+    .mobile{
+        display: contents;
+        padding: 10%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .col{
+        padding-bottom: 10px;
+    }
+}
+
